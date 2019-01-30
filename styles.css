@@ -1,1 +1,20 @@
+body {
+  font-family: sans-serif;
+  color: rgb(82, 86, 89);
+}
 
+aside {
+  position: relative;
+  box-sizing: border-box;
+  width: 30%;
+  float: right;
+}
+
+h3 {
+  font-style: bold;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
