@@ -1,20 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
 body {
   font-family: sans-serif;
-  color: rgb(82, 86, 89);
+  color: #2e2e2e;
 }
 
 aside {
   position: relative;
-  box-sizing: border-box;
-  width: 30%;
+  width: 320px;
   float: right;
+  margin: 6rem 15rem 10rem;
 }
 
 h3 {
   font-style: bold;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #0086b4;
+  font-weight: lighter;
 }
 
 footer {
   clear: both;
+  color: white;
+  font-weight: lighter;
   text-align: center;
+  background-color: #2e2e2e;
+  height: 450px;
+  padding: 5rem 0;
+}
+
+footer a {
+  font-weight: normal;
+  color: white;
 }
