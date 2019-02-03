@@ -11,10 +11,15 @@ body {
 
 header {
   color: white;
-  background-image: url("./images/lesson04-mock2-banner-image.jpg");
+  background: url("../images/lesson04-mock2-banner-image.jpg");
   background-size: cover;
   display: flex;
   align-content: flex-end;
+}
+
+.kitten-header {
+  background: url("../images/lesson04-mock4-footer-image.jpg");
+  background-size: auto;
 }
 
 header > div {
@@ -46,14 +51,33 @@ main {
   padding: 0 1rem;
 }
 
+.kitten-profiles {
+  flex: 3;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  border: none;
+}
+
+img {
+  width: 350px;
+  border: 2px solid #2B9AB7;
+}
+
 article {
   margin-bottom: 3rem;
+}
+
+.individual-kitten {
+  padding: 2rem;
+  text-align: justify;
 }
 
 .joke {
   text-align: center;
   margin-top: 2rem;
-  line-height: 0.5rem;
 }
 
 aside {
@@ -83,12 +107,17 @@ nav a {
   color: white;
 }
 
-img {
+.cat-logo {
+  border: none;
   margin-bottom: 1rem;
 }
 
 figure {
   margin: 0.5rem 0;
+}
+
+figcaption {
+  font-weight: bold;
 }
 
 footer {
